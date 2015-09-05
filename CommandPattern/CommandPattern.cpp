@@ -8,6 +8,7 @@
 #include "LightOffCommand.h"
 #include "StereoOffCommand.h"
 #include "StereoOnWithCDCommand.h"
+#include "MacroCommand.h"
 #define LIGHT 0
 #define FAN 1
 #define CD 2
@@ -26,6 +27,14 @@ int main()
 	rc.OffButtonWasPressed(LIGHT);
 	rc.OnButtonWasPressed(CD);
 	rc.OffButtonWasPressed(CD);
+	rc.UndoButtonWasPressed();
+	std::cout << "--------------Party Begins-----------------" << std::endl;
+	Command* commands[2];
+	commands[0] = lightOffCommand;
+	commands[1] = stereoOnWithCDCommand;
+	MacroCommand* m = new MacroCommand(commands, 2);
+	rc.SetPartyCommands(m);
+	rc.PartyButtonWasPressed();
     return 0;
 }
 

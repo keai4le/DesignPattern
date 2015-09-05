@@ -9,6 +9,7 @@ private:
 public:
 	LightOnCommand(Light *light);
 	void Execute();
+	void Undo();
 	~LightOnCommand();
 };
 

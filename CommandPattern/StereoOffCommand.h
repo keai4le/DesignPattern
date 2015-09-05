@@ -9,6 +9,7 @@ private:
 public:
 	StereoOffCommand(Stereo *stereo);
 	void Execute();
+	void Undo();
 	~StereoOffCommand();
 };
 

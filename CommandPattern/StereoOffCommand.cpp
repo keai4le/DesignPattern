@@ -14,6 +14,11 @@ void StereoOffCommand::Execute()
 	std::cout << "Stereo Is turning Off" << std::endl;
 }
 
+void StereoOffCommand::Undo()
+{
+	this->stereo->On();
+}
+
 StereoOffCommand::~StereoOffCommand()
 {
 }

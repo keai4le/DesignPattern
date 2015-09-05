@@ -9,6 +9,7 @@ private:
 public:
 	StereoOnWithCDCommand(Stereo *stereo);
 	void Execute();
+	void Undo();
 	~StereoOnWithCDCommand();
 };
 

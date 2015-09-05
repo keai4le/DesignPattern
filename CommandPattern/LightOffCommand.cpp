@@ -13,6 +13,11 @@ void LightOffCommand::Execute()
 	this->light->Off();
 }
 
+void LightOffCommand::Undo()
+{
+	this->light->On();
+}
+
 LightOffCommand::~LightOffCommand()
 {
 }

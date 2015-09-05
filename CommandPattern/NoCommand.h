@@ -6,6 +6,7 @@ class NoCommand:
 public:
 	NoCommand();
 	void Execute();
+	void Undo();
 	~NoCommand();
 };
 

@@ -16,6 +16,11 @@ void StereoOnWithCDCommand::Execute()
 	stereo->SetVolume(20);
 }
 
+void StereoOnWithCDCommand::Undo()
+{
+	this->stereo->Off();
+}
+
 StereoOnWithCDCommand::~StereoOnWithCDCommand()
 {
 }

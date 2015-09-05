@@ -149,6 +149,7 @@
     <ClInclude Include="Light.h" />
     <ClInclude Include="LightOffCommand.h" />
     <ClInclude Include="LightOnCommand.h" />
+    <ClInclude Include="MacroCommand.h" />
     <ClInclude Include="NoCommand.h" />
     <ClInclude Include="RemoteControl.h" />
     <ClInclude Include="SimpleRemoteControl.h" />
@@ -164,6 +165,7 @@
     <ClCompile Include="Light.cpp" />
     <ClCompile Include="LightOffCommand.cpp" />
     <ClCompile Include="LightOnCommand.cpp" />
+    <ClCompile Include="MacroCommand.cpp" />
     <ClCompile Include="NoCommand.cpp" />
     <ClCompile Include="RemoteControl.cpp" />
     <ClCompile Include="SimpleRemoteControl.cpp" />
