@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingletonPattern", "Singlet
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommandPattern", "CommandPattern\CommandPattern.vcxproj", "{DFAEABAE-B2BB-418F-8EDE-273FA651B924}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdapterPattern", "AdapterPattern\AdapterPattern.vcxproj", "{062282FF-02E4-42E7-A26C-2D616C74582B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{DFAEABAE-B2BB-418F-8EDE-273FA651B924}.Release|x64.Build.0 = Release|x64
 		{DFAEABAE-B2BB-418F-8EDE-273FA651B924}.Release|x86.ActiveCfg = Release|Win32
 		{DFAEABAE-B2BB-418F-8EDE-273FA651B924}.Release|x86.Build.0 = Release|Win32
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Debug|x64.ActiveCfg = Debug|x64
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Debug|x64.Build.0 = Debug|x64
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Debug|x86.ActiveCfg = Debug|Win32
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Debug|x86.Build.0 = Debug|Win32
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Release|x64.ActiveCfg = Release|x64
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Release|x64.Build.0 = Release|x64
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Release|x86.ActiveCfg = Release|Win32
+		{062282FF-02E4-42E7-A26C-2D616C74582B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
