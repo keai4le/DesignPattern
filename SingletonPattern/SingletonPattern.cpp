@@ -10,7 +10,7 @@ void test()
 }
 int main()
 {
-	SingleTonClass2* s = SingleTonClass2::getInstance();
+	SingleTonClass* ss = SingleTonClass::getInstance();
 	test();
     return 0;
 }

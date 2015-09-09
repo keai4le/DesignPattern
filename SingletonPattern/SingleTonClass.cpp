@@ -1,10 +1,9 @@
 #include "SingleTonClass.h"
 
 
-SingleTonClass* SingleTonClass::s = new SingleTonClass();
+SingleTonClass* SingleTonClass::s = NULL;
 SingleTonClass::SingleTonClass()
 {
-	s = NULL;
 }
 
 
